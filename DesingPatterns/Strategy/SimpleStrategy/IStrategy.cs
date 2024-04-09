@@ -1,4 +1,4 @@
-﻿namespace DesingPatterns.Strategy;
+﻿namespace DesingPatterns.Strategy.SimpleStrategy;
 
 public interface IStrategy
 {

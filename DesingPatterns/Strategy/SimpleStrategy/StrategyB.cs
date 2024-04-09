@@ -1,6 +1,6 @@
-﻿namespace DesingPatterns.Strategy;
+﻿namespace DesingPatterns.Strategy.SimpleStrategy;
 
-public class StrategyA : IStrategy
+public class StrategyB : IStrategy
 {
     public object DoSomething(object data)
     {

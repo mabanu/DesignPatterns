@@ -1,4 +1,5 @@
-﻿namespace DesingPatterns.State;
+﻿namespace DesingPatterns.State.SimpleState;
+
 internal class ConcreteStateA : State
 {
     public override void Handle(Context context)

@@ -1,4 +1,4 @@
-﻿namespace DesingPatterns.State;
+﻿namespace DesingPatterns.State.SimpleState;
 
 internal class ConcreteStateB : State
 {
