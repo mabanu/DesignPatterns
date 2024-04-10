@@ -7,4 +7,10 @@ public class State
     {
         Assert.Fail();
     }
+
+    [Fact]
+    public void Fail1()
+    {
+        Assert.Fail();
+    }
 }
