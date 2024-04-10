@@ -1,4 +1,4 @@
-﻿using DesingPatterns.Strategy;
+﻿using DesingPatterns.Strategy.SimpleStrategy;
 
 namespace DesignPatterns.Tests.Unit;
 
