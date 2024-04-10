@@ -1,5 +1,10 @@
 ﻿namespace DesignPatterns.Tests.Unit;
 
-internal class State
+public class State
 {
+    [Fact]
+    public void Fail()
+    {
+        Assert.Fail();
+    }
 }
