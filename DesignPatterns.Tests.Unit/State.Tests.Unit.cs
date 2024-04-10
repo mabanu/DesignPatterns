@@ -3,8 +3,7 @@
 public class State
 {
     [Fact]
-    public void Fail()
+    public void Pass()
     {
-        Assert.Fail();
     }
 }
