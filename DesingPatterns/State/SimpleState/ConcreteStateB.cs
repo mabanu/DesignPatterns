@@ -1,8 +1,8 @@
 ﻿namespace DesingPatterns.State.SimpleState;
 
-internal class ConcreteStateB : State
+internal class ConcreteStateB : IState
 {
-    public override void Handle(Context context)
+    public void Handle(Context context)
     {
         context.State = new ConcreteStateA();
     }

@@ -1,15 +1,11 @@
 ﻿namespace DesingPatterns.State.SimpleState;
 
-internal class Context
+internal class Context(IState state)
 {
-    State _state;
-    // Constructor
-    public Context(State state)
-    {
-        _state = state;
-    }
+    private IState _state = state;
+
     // Gets or sets the state
-    public State State
+    public IState State
     {
         get { return _state; }
         set
