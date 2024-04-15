@@ -1,4 +1,5 @@
 ﻿using DesingPatterns;
+using DesingPatterns.CustomClass;
 using DesingPatterns.State.SimpleState;
 using DesingPatterns.Strategy.DashbordExample;
 using DesingPatterns.Strategy.SimpleStrategy;
@@ -34,4 +35,11 @@ using System.Runtime.CompilerServices;
         ]);
 
     state.Run();
+}
+
+// Custom class
+{
+    ConsoleTemplate.CreateTitle("Custom class");
+
+    CustomClassTest.GetCustomClassTest();
 }
